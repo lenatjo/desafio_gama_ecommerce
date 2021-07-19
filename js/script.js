@@ -14,15 +14,8 @@ form.addEventListener('submit', (e) => {
 
   let content = document.getElementById('content')
 
-  let carregando = `<p>carregando...</p>`
-
-  let pronto = `<p>pronto</p>`
-
-  content.innerHTML = carregando
-
-
-  setTimeout(() => {
-    content.innerHTML = pronto
-  }, 1000)
-
+  alert("Seu email foi cadastrado com sucesso!!");
+  
+  document.getElementById('nome').value = "";
+  document.getElementById('email').value = "";
 })
