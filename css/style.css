@@ -1,0 +1,235 @@
+.body{
+    margin: 0px;
+}
+
+.app{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_section_left{
+    min-height: 20vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-color: black;
+}
+
+.logo_section_right{
+    min-height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-color:black;
+}
+
+.h1 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h2{
+    text-align: center;
+    padding-top: 3rem;
+    text-shadow: 0 8px 8px 0 rgba(41, 41, 41, 0.125);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19.7594px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.p{
+    margin: 0.5rem 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.img-logo{
+    height: 50vmin;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.products{
+    background-image: url(/assets/background_products.jpg);
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+}
+
+.container-products{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.block-cards{
+    display: flex;
+    justify-content: center;  
+    margin: 1rem 3rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.products-cards{
+    background: white;
+    border-radius: 20px;
+    width: 245px;
+    height: 320px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    box-shadow: 0 8px 8px 0 rgb(41 41 41 / 13%);
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.card-text{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.price{
+    margin: 0.5rem 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: red;
+}
+
+.btn-card{
+    margin: 1rem 0;
+    background: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgb(41 41 41 / 20%);
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+}
+
+.email_section_left{
+    min-height: 10vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-color: black;
+}
+
+.email_section_right{
+    min-height: 10vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-color:black;
+}
+
+.email-form{
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.email-input {
+    width: 300px;
+    height: 42px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-register{
+    width: 126px;
+    height: 42px;
+    border: none;
+    background: #EF042E;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer-links{
+    margin-top: 20px;
+    margin-left: 1250px;
+}
+
+.social-icons{
+    color: white;
+    fill: white;
+}
+
